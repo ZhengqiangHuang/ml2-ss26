@@ -1,4 +1,4 @@
-# Lab 1
+# Exercise 08 - RL Intro
 
 In this first lab we play around with the [FrozenLake environment](https://gymnasium.farama.org/environments/toy_text/frozen_lake/) and try to learn a good policy from experience.
 Take a look at the file `08_RL_FrozenLake_Random.py` to have a starting point for the following tasks:
