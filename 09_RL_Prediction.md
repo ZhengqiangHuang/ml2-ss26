@@ -22,7 +22,7 @@ Q(s,a) =  Q(s,a) + 1/N(s,a) *  (G-Q(s,a))
 ### Task 2:
 Use now the learned Q-values to simulate episodes:
 
-- After every successful episode, in addition to printing the Q-values run 100 episodes using a greedy policy on the current Q-values.
+- After every successful episode, in addition to printing the Q-values run 100 episodes using a *greedy policy* on the current Q-values. Hint: In a greedy policy, the agent chooses in a its current state the action that has the highest Q-value.
 - Print the average reward per episode for those 100 episodes.
 
 ### Task 3:
