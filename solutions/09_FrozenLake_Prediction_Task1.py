@@ -34,8 +34,8 @@ def main():
         # update q-values with MC-prediction
         for i, (s,a) in enumerate(s_a):
             return_i = sum(r_s[i:])
-            q_counter[s][a] += 1
-            q_values[s][a] += 1/q_counter[s][a] * (return_i - q_values[s][a])
+            q_counter[s][a] += 1 # N(s,a)
+            q_values[s][a] += 1/q_counter[s][a] * (return_i - q_values[s][a]) # Q(s,a)
 
         if sum(r_s) > 0:
             print(q_values)
